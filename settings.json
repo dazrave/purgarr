@@ -1,0 +1,9 @@
+{
+    "purge_frequency": 1, // How often the purge should run
+    "purge_deadline": 365, // How long to wait before scheduling media for purging
+    "purge_cooldown": 14, // How long until the media is actually purged once scheduled
+    "activity_reset": true, // If you watch a show, the purge date will be reset
+    "discord_announcements": true, // Post the purge schedule to discord
+    "purge_protect": ["tag1", "tag2", "tag3"], // Media with these tags will never be deleted (by default the 'keep' tag is never deleted)
+    "auto_protect": 5 // The amount of times media must be watched before it is protected automatically
+}

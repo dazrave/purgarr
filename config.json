@@ -1,0 +1,14 @@
+{
+    "radarr": {
+        "api_key": "your_radarr_api_key",
+        "url": "your_domain_or_ip"
+    },
+    "plex": {
+        "username": "Darren",
+        "password": "your_plex_password",
+        "server_name": "Plex Server"
+    },
+    "discord": {
+        "webhook_url": "your_discord_webhook_url"
+    }
+}

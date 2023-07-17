@@ -1,0 +1,2 @@
+requests==2.26.0
+python-plexapi==4.6.0
